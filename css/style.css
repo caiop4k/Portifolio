@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body, #home{
+	height: 100%;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvética, sans-serif;	
+}
+
+#cabecalho small {
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	color: #fff;
+}
+
+#home {
+	background: rgb(176,224,230);
+	background: linear-gradient(90deg, rgba(176,224,230,1) 0%, rgba(25,25,112,1) 100%);
+}
+
+#eu {
+	background: white;
+}
+
+/*PARTE SUPERIOR*/
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #191970;
+    background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+
+/*TITULOS PADROES*/
+
+h1 {
+	font-size: 3.0em;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+h2 {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 2.3em;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	color: #191970;
+}
+
+/*CONTEUDO*/
+
+.capa {
+	text-align: center;
+}
+
+.btn {
+	margin-bottom: 5px;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+/*SOBRE MIM*/
+
+.rosto {
+	width: 250px;
+	margin-top: 20px;
+}
+
+.sobre-mim {
+	margin-top: 20px;
+	text-align: justify;
+	font-size: 1.5em;
+	color: #191970;
+}
+
+#tec {
+	padding-bottom: 30px;
+}
+
+/*rodape*/
+
+.footer {
+	background: rgb(176,224,230);
+	background: linear-gradient(90deg, rgba(176,224,230,1) 0%, rgba(25,25,112,1) 100%);
+}
+
+.footer p a {
+	color: #fff;
+}
+
+.rodape {
+	padding: 5px;
+}
+
+/*icons*/
+#tec .ling{
+	display: flex;
+	gap: 25px;
+}
+
+#tec .ling i{
+	font-size: 60px;
+}
+
+#tec .ling i:nth-child(1){
+	color: #e34c26;
+}
+
+#tec .ling i:nth-child(2){
+	color: #264de4;
+}
+
+#tec .ling i:nth-child(3){
+	color: #563d7c;
+}
+
+#tec .ling i:nth-child(4){
+	color: #f0db4f;
+}
